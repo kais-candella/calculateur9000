@@ -82,7 +82,7 @@ btn_decimal=tk.Button(calcul,text=".", cursor = "hand2",command=lambda: add_to_f
 btn_decimal.grid(row=6,column=1,rowspan=2,pady=5)
 
 btn_racine_carré=tk.Button(calcul,text="√", cursor = "hand2",command=lambda: add_to_field("√"),width=5,font=("Arial",15),bg="#2a2d36",)
-btn_racine_carré.grid(row=5,column=3,pady=5)
+btn_racine_carré.grid(row=5,column=2,pady=5)
 
 
 btn_close_parenthesis=tk.Button(calcul,text="x²", cursor = "hand2",command=lambda: add_to_field("x²"),width=5,font=("Arial",15),bg="#2a2d36",)
